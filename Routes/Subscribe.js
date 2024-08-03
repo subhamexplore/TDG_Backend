@@ -12,7 +12,7 @@ router.post("/subscribe", async (req, res) => {
     const recipients = [req.body.email];
     sendMail(
       recipients,
-      "Subscription with TDG Home",
+      "Subscription to TDG News",
       "",
       htmlMail(
         req.body.email
