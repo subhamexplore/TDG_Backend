@@ -6,7 +6,7 @@ const getBlog = require("./models/Blog")
 const Login = require("./models/Login");
 
 app.use((req, res, next)=>{
-  res.setHeader("Access-Control-Allow-Origin", "https://www.smartandelegant.life/");
+  res.setHeader("Access-Control-Allow-Origin", "https://www.smartandelegant.life");
   res.header(
     "Access-Control-Allow-Headers",
     "origin,X-Requested-With,Content-Type,Accept"
