@@ -14,7 +14,7 @@ async function sendMail(to, subject, text, html) {
   const recipients = Array.isArray(to) ? to.join(',') : to;
   // send mail with defined transport object
   const info = await transporter.sendMail({
-    from: 'debidatta.learnforcause@gmail.com', // sender address
+    from: 'ddiallo@thediallogroupllc.com', // sender address
     to:recipients,
     subject,
     text,
